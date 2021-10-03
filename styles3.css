@@ -1,0 +1,68 @@
+*{
+	touch-action: manipulation;
+}
+
+body{
+	text-align: center;
+	font: 1em "Fira Sans", sans-serif;
+}
+
+h1{
+	font: bold 2em "Fira Sans", sans-serif;
+}
+
+
+button{
+	background-color:rgba(255, 255, 255, 0.5);
+	font: 1.3em "Fira Sans", sans-serif;
+	border-radius: 15px;
+	border-style: solid;
+	border-color: black;
+}
+
+#imgmonke{
+	position: absolute;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+	padding-top: 45px;
+	z-index: 3;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+
+#circle{
+	-webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+	border-radius: 60%;
+	opacity: 50%;
+	position: absolute;
+	top:75px;
+	margin-left: auto;
+	margin-right: auto;
+	left: 2.5%;
+	right: 0;
+	text-align: center;
+}
+
+#scoretest{
+	padding-top:625px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 60px;
+	right: 0;
+	text-align: center;
+	z-index: 4;
+}
+
+#pause{
+	padding-top: 0;
+}
